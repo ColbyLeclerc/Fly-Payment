@@ -1,0 +1,321 @@
+#Fly Payment By AhellHound
+PLEASE_DO_NOT_TOUCH_THIS: 3.5
+#Default config
+#***WARNING***
+#IF YOU HAVE THE ECONOMY PORTION ENABLED, AND THERE ISN'T INSTANT FLYING
+#WHEN THE PLAYER USES /FLY ON, IT'S YOUR CONNECTION TO THE MySQL AND
+#ECOOMY PLUGIN CAUSING THE LAG, NOT FLY PAYYMENT.
+#*************
+#If you only want one price throughout the server, then just use Tier 1
+#and give that permission to everyone.
+#If you don't want a group to be timed, set the FlightTimerTier(1-12) to 0.
+#*********************************************************************
+#TIMER MODES
+#Timer mode "0" will remove an item from the player every "x" amount of seconds
+#Timer mode "1" will cost the player one payment to fly for "x" amount of time. 
+#(Timer 1 is the setting FlyPament started with when first released)
+
+
+#When a player goes to ban another player (from flying), do you want to have the player be required to set a time amount?
+FlyBanRequireTime: true
+#If so, do you want  a limit to how long the player can ban for (in seconds)? If not, set to '0'
+FlyBanMaxTime: 0
+# amount of time, in seconds, the fly check timer will run
+FlyCheckTimer: 1
+# amount of time, in seconds, the ban check will run
+BanCheckTimer: 60
+#Banned fly worlds (enter EXACT world name)
+BannedWorlds:
+  world1
+  world2
+  
+# If a player's flight gets disabled for any PvP reason, how long should he be temp banned from flying for? (in SECONDS.) Set
+# to '0' to disable
+PvPTempBanTime: 20
+#How many seconds should the fly mode one timer check all the flying player's time?
+#(DO NOT TOUCH IF YOU'RE CONFUSED! ASK ME FIRST!)
+FlyModeOneTimerAmount: 2
+#FOR ALL FREE FLY OPTIONS, SEE freFly.yml
+
+
+#Permission: FlyP.Fly.1
+ChargeItemNameTier1: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier1: "-1"
+AmountOfItemsToChargeTier1: 1
+#Timer in seconds
+WithdrawTimerTier1: 1
+#amount of exp to charge. Use "0" to disable EXP
+ChargeEXPTier1: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier1: 0
+#See above for timer info
+TimerModeTier1: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier1: 0
+
+#Permission: FlyP.Fly.2
+ChargeItemNameTier2: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier2: "-1"
+AmountOfItemsToChargeTier2: 1
+#Timer in seconds
+WithdrawTimerTier2: 10
+#amount of exp to charge
+ChargeEXPTier2: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier2: 0
+#FlySpeedTier2: "0.1"
+TimerModeTier2: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier2: 0
+
+#Permission: FlyP.Fly.3
+ChargeItemNameTier3: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier3: "-1"
+AmountOfItemsToChargeTier3: 1
+#Timer in seconds
+WithdrawTimerTier3: 10
+#amount of exp to charge
+ChargeEXPTier3: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier3: 0
+#FlySpeedTier3: "0.1"
+TimerModeTier3: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier3: 0
+
+#Permission: FlyP.Fly.4
+ChargeItemNameTier4: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier4: "-1"
+AmountOfItemsToChargeTier4: 1
+#Timer in seconds
+WithdrawTimerTier4: 10
+#amount of exp to charge
+ChargeEXPTier4: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier4: 0
+#FlySpeedTier4: "0.1"
+TimerModeTier4: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier4: 0
+
+#Permission: FlyP.Fly.5
+ChargeItemNameTier5: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier5: "-1"
+AmountOfItemsToChargeTier5: 1
+#Timer in seconds
+WithdrawTimerTier5: 10
+#amount of exp to charge
+ChargeEXPTier5: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier5: 0
+#FlySpeedTier5: "0.1"
+TimerModeTier5: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier5: 0
+
+#Permission: FlyP.Fly.6
+ChargeItemNameTier6: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier6: "-1"
+AmountOfItemsToChargeTier6: 1
+#Timer in seconds
+WithdrawTimerTier6: 10
+#amount of exp to charge
+ChargeEXPTier6: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier6: 0
+#FlySpeedTier6: "0.1"
+TimerModeTier6: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier6: 0
+
+#Permission: FlyP.Fly.7
+ChargeItemNameTier7: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier7: "-1"
+AmountOfItemsToChargeTier7: 1
+#Timer in seconds
+WithdrawTimerTier7: 10
+#amount of exp to charge
+ChargeEXPTier7: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier7: 0
+#FlySpeedTier7: "0.1"
+TimerModeTier7: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier7: 0
+
+#Permission: FlyP.Fly.8
+ChargeItemNameTier8: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier8: "-1"
+AmountOfItemsToChargeTier8: 1
+#Timer in seconds
+WithdrawTimerTier8: 10
+#amount of exp to charge
+ChargeEXPTier8: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier8: 0
+#FlySpeedTier8: "0.1"
+TimerModeTier8: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier8: 0
+
+#Permission: FlyP.Fly.9
+ChargeItemNameTier9: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier9: "-1"
+AmountOfItemsToChargeTier9: 1
+#Timer in seconds
+WithdrawTimerTier9: 10
+#amount of exp to charge
+ChargeEXPTier9: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier9: 0
+#FlySpeedTier9: "0.1"
+TimerModeTier9: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier9: 0
+
+#Permission: FlyP.Fly.10
+ChargeItemNameTier10: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier10: "-1"
+AmountOfItemsToChargeTier10: 1
+#Timer in seconds
+WithdrawTimerTier10: 10
+#amount of exp to charge
+ChargeEXPTier10: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier10: 0
+#FlySpeedTier10: "0.1"
+TimerModeTier10: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier10: 0
+
+#Permission: FlyP.Fly.11
+ChargeItemNameTier11: DIAMOND
+#Custom name of the item. Set to "-1" if you do not have a custom name on the item
+ChargeItemCustomNameTier1: "-1"
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier11: "-1"
+AmountOfItemsToChargeTier11: 1
+#Timer in seconds
+WithdrawTimerTier11: 10
+#amount of exp to charge
+ChargeEXPTier11: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier11: 0
+#See above for timer info
+TimerModeTier11: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier11: 0
+
+#Permission: FlyP.Fly.12
+ChargeItemNameTier12: DIAMOND
+#To charge an item with NO lore, set the below lore to "-1" (Keep quotes)
+ItemMetaLoreTier12: "-1"
+AmountOfItemsToChargeTier12: 1
+#Timer in seconds
+WithdrawTimerTier12: 10
+#amount of exp to charge
+ChargeEXPTier12: 0
+#Amount of money to charge. Use "0" to disable Money removal
+ChargeMoneyTier12: 0
+#See above for timer info
+TimerModeTier12: 0
+#Time in seconds players will be allowed to fly. Only use this if mode "1" is selected
+TimerAmountTier12: 0
+
+#Player Messages
+
+### You MUST keep the quotation marks outside the message!
+### Don't interchange the fillers. (for example, you cannot use %ItemAmount% in the 'PermissionErrorMessage')
+# %player% = player who used the command (This CAN be used in any message)
+# %ItemAmount% = The amount of items required to fly
+# %ItemName% = The name of the item required to fly
+# %RemainingEXPNeeded% = The amount of EXP needed left to fly
+# %RemainingMoneyNeeded% = The amount of money needed left to fly
+# %ItemChargeAmount% = The amount of items charged to fly
+# %EXPChargeAmount% = The amount of EXP charged to fly
+# %FlightTime% = The amount of time a player has to fly
+# %MoneyNamePlural% = The plural name of your currency
+# %MoneyNameSingular% = The singular name of your currency
+# %timeLeftCommand% = The time left when using /fly timeleft command
+# %BannedPlayerName% = The name of the player banned from flying
+# %TimeBanned% = The amount of time the player is banned from flying.
+# %MaxBanTime% = The max ban time set in the beggning of the config file
+# %ProtectedPlayer% = The player who was not banned, because he/she had flyp.ban.protect permission
+# %BannedPlayerName% = The name of the player who the command sender was trying to ban
+# %IncorrectEntry% = The incorect time format the player tried to pass as a ban time
+# %NotBannedPlayer% = The player the command sender tried to remove, but couldn't because he/she was not banned to begin with
+# %UnbannedPlayer% = The player who was unbanned with the 'removeban' command
+# %Lore% = The lore of the item being charged
+
+#This prefix will go before all messages
+MessagePrefix: "&1[&6FP&1] "
+
+#MISC Messages
+InvalidArgumentMessage: "%prefix%&cInvalid Argument!"
+PlayerErrorMessage: "%prefix%&cYou must be a player!"
+#Break each line with /n, and KEEP the first  ( " ) and the last ( " ). This can only be done on the message below
+CommandUsageErrorMessage: "&b ========== Fly Payment ==========/n
+&c/FP <On:Off> - Turns flying on and off/n
+&b/FP Cost <Item:EXP> - Choose which payment is used first./n
+&c/FP Ban <Player> [Time] - Adds a fly ban/n
+&b/FP RemoveBan <Player> - Removes a fly ban/n
+&b=============================/n"
+PermissionErrorMessage: "%prefix%&cYou lack the permission to do this!"
+FlyingAlreadyEnabledMessage: "%prefix%&2Flying is already enabled, %player%!"
+FlyingAlreadyDisabledMessage: "%prefix%&2Flying is already disabled, %player%!"
+FlyingEnabledMessage: "%prefix%&2Flying Enabled, %player%."
+FlyingDisabledMessage: "%prefix%&cFlying disabled. Reason: %Reason%"
+
+#Item  and EXP messages
+#Break each line with /n, and KEEP the first  ( " ) and the last ( " ). This can only be done on the message below
+ItemRequirementMessage: "%prefix%&cYou need one of the following to fly: /n 
+&6%ItemAmount% %ItemName% &cwith the lore &d%ItemLore%&6; &cYou have %CurrentItemAmount% &6%ItemName% /n
+&6%ExpAmount% EXP; &cYou have %CurrentEXP% /n
+&6%MoneyAmount% %MoneyName%; &cYou have %CurrentMoney% &c%MoneyName%"
+ItemRemovedMessage: "%prefix%&cI'll take that %ItemName%, %player%."
+EXPRemovedMessage: "%prefix%&c%EXPChargeAmount% has been deducted from your total experience, %player%."
+MoneyRemovedMessage: "%prefix%&c%MoneyAmount% %MoneyName% has been deducted from your account, %player%."
+
+#TimeLeftNotFlyingMessage: "%prefix%&cYou're not flying, %player%!"
+FlyingHasNoTimeLimitMessage: "%prefix%&2Your flight has no time limit, %player%!"
+FlyingEnabledNoTimeLimitMessage: "%prefix%&2Flying enabled, %player%. You're flight has no time limit."
+
+#Flight ban messages
+PlayerBannedCantFlyMessage: "%prefix%&cYou're banned from flying!"
+FlyBanRequiredTimeMessage: "%prefix%&cYou must enter an amount of time to ban the player, %player%!"
+BanAddedMessage: "%prefix%&2You've banned %BannedPlayerName% from flying for %TimeBanned%."
+MaxBanTimeReachedMessage: "%prefix%&cYou've banned that player for too long! The maximum ban time is %MaxBanTime%. The player was not banned."
+PlayerProtectedFromBanMessage: "%prefix%&cYou cannot ban %ProtectedPlayer%!"
+PlayerOfflineMessage: "%prefix%&cCould not ban %BannedPlayerName%, because he/she is not online!"
+BanTimeValidationMessage: "%prefix%&cIncorrect format '%IncorrectEntry%'. Please use 'w' for weeks, 'd' for days, 'm' for minutes, and 's' for seconds."
+BanCommandUsageError: "%prefix%&c/FP ban <Player Name> <Time> (leave time empty for permanent ban)"
+PlayerNotBannedMessage: "%prefix%&cPlayer %NotBannedPlayer% is not banned."
+BanRemovedMessage: "%prefix%&2%UnbannedPlayer% was unbanned from the Fly Ban List."
+PlayerBannedCheckMessage: "%prefix%&2%BannedPlayer% is banned for %TimeBannedFor%."
+BannedPermanentlyMessage: "%prefix%&2%BannedPlayer% is permanently banned from flying."
+FlyTempBanMessage: "%prefix%&cYou're temporarily banned from flying for engaging in combat while flying!"
+
+#FreeFlight messages
+FreeFlightEnabledMessage: "%prefix%&2Free Flying is enabled! Flying is enabled and free."
+FreeFlightIsDisabledMessage: "%prefix%&cFree Flight is already disabled!"
+FreeFlightDisabledMessage: "%prefix%&cFree Flight disabled."
+FreeFlightEnabledPermanentlyMessage: "%prefix%&2Free Flight is enabled with no time limit."
+FreeFlightUsageErrorMessage: "%prefix%&c/FP FreeFly <on:off> [time]"
+FreeFlightEnabledTimeMessage: "%prefix%&2 Free Flight enabled for %FreeFlyTime%!"
+
+#Charge order messages
+#Each arg is the player's cost order. %arg1% is the first, %arg2% is the second, and %arg3% is the third.
+costOrderCreatedMessage: "%prefix%&2You will be charged &6%arg1%&2, then &6%arg2%&2, and lastly &6%arg3%"
+ChargeOrderUsageErrorMessage: "%prefix%&c/FP Cost <Item:EXP:Money> <Item:EXP:Money> <Item:EXP:Money> (<Charged First> <Charged Second> <Charged Third>)"
+ChargeOrderExpMessage: "%prefix%&2Exp will be charged first when flying."
+ChargeOrderItemMessage: "%prefix%&2Items will be charged first when flying."

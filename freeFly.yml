@@ -1,0 +1,8 @@
+#Fly Payment Free Fly config
+#Turn free-fly on or off. If free fly is turned on through commands, this is automatically set
+FreeFly: false
+#The free fly time. DO NOT TOUCH, unless you change this to '0', which will disable a time limit for free fly
+FreeFlyTime: 0
+#The time, in seconds, the free fly timer will run. Timer will not run if free-fly is off
+FreeFlyTimeInterval: 120
+
