@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 public class Main extends JavaPlugin implements Listener {
+    //TODO Add Gradle to project
     // eliminate Variables
     public static Economy econ = null;
     // eliminate Variables
