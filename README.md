@@ -1,7 +1,7 @@
 Fly-Payment
 ===========
 
-**_Note: This project was my first major Java project started when I was a Freshman in High School (and ended a few years after). Hence, the coding practices, project page verbage, and overall design heavily reflects this!_**
+**_Note: This project was my first major Java project started when I was a freshman in high school (and ended a few years after). Hence, the coding practices, project page verbage, and overall design heavily reflects this!_**
 
 Pay-To-Fly Java plugin built using the Bukkit API. This plugin is loaded on Minecraft Multiplayer servers.
 
